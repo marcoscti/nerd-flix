@@ -1,0 +1,13 @@
+React router dom para gerenciar as rotas
+
+npm install axios
+axios para gerenciar requisições https
+
+Configurações da API
+chave api v3
+28de70bf4fa04cab4e19b9f32b7d9424
+ requisição
+ https://api.themoviedb.org/3/movie/550?api_key=28de70bf4fa04cab4e19b9f32b7d9424
+
+ token v4
+ eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyOGRlNzBiZjRmYTA0Y2FiNGUxOWI5ZjMyYjdkOTQyNCIsInN1YiI6IjYzYzg5ODY3YzVjMWVmMDBjYjFjYjYwMyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.5s0WkZIVoSUUNpkebZqhoWLP8NLKO1e8t7xonAtg1FM

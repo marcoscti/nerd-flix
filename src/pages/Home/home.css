@@ -1,0 +1,30 @@
+body{
+    background: rgb(244, 244, 244);
+}
+.container{
+
+}
+.list{
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.card-movie{
+    border: 15px solid #fff;
+    box-shadow: 3px 3px 3px rgb(79, 78, 78);
+    background-color: rgb(248, 246, 246);
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 350px;
+    width: 100%;
+}
+.card-image .movie-image{
+    max-width: 280px;
+    width: 100%;
+}
