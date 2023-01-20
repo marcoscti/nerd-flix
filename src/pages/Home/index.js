@@ -14,7 +14,7 @@ function Home() {
                 }
             })
             //  console.log(response.data.results.slice(0,10))
-            setFilmes(response.data.results.slice(0, 10))
+            setFilmes(response.data.results.slice(0, 15))
         }
         loadFilmes();
     }, [])
@@ -25,13 +25,13 @@ function Home() {
                     return (
                         <article key={movie.id} className="card-movie">
                             <div className="card-image">
-                            <img src={`https://image.tmdb.org/t/p/original/${movie.poster_path}`} alt={movie.title} className="movie-image"/>
+                                <img src={`https://image.tmdb.org/t/p/original/${movie.poster_path}`} alt={movie.title} className="movie-image" />
                             </div>
                             <div className="card-title">
-                            <h2>{movie.title}</h2>
+                                <h2>{movie.title}</h2>
                             </div>
                             <div className="card-btn">
-                            <Link to={`/filme/${movie.id}`} className="btn-ver">Ver Mais</Link>
+                                <Link to={`/filme/${movie.id}`} className="btn-ver">Ver Mais</Link>
                             </div>
                         </article>
                     )

@@ -28,3 +28,17 @@ body{
     max-width: 280px;
     width: 100%;
 }
+.card-btn{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-btn a{
+    text-decoration: none;
+    background-color: cadetblue;
+    padding: 10px 39%;
+    color: aliceblue;
+    font-weight: bold;
+}
